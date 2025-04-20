@@ -1,0 +1,32 @@
+body {
+    font-family: 'Cairo', sans-serif;
+  }
+  
+  nav {
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    transform: scale(1.05);
+  }
+  
+  section {
+    padding-top: 80px;
+  }
+  
+  button, a.bg-green-600 {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover, a.bg-green-600:hover {
+    transform: translateY(-2px);
+  }
+  
+  input, textarea {
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+    border-color: #10b981;
+  }
