@@ -4,7 +4,6 @@ if(!isset($_SESSION['user_id'])){
   header("Location: login.php");
   exit();
 }
-var_dump($_SESSION);
 ?>
 
 
@@ -488,7 +487,7 @@ var_dump($_SESSION);
 </head>
 <body>
   <!-- Navigation -->
-  <!-- <nav>
+  <nav>
         <div class="container">
             <a href="index.php" class="logo" data-aos="fade-right" data-aos-duration="600">EcoTrail</a>
             <button id="menu-toggle" class="hamburger" aria-label="Toggle menu">
@@ -535,7 +534,7 @@ var_dump($_SESSION);
                 <?php endif; ?>
             </ul>
         </div>
-    </nav> -->
+    </nav>
 
 
   <!-- About Section -->
