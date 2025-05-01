@@ -392,7 +392,7 @@ if(!isset($_SESSION['user_id'])){
       gap: 2rem;
     }
 
-    .achievement-card {
+    .achievement-card { 
       background-color: white;
       padding: 1.5rem;
       border-radius: 0.5rem;
